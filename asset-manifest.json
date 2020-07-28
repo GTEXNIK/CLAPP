@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/CLAPP/static/css/main.981f7211.chunk.css",
+    "main.js": "/CLAPP/static/js/main.09549674.chunk.js",
+    "main.js.map": "/CLAPP/static/js/main.09549674.chunk.js.map",
+    "runtime-main.js": "/CLAPP/static/js/runtime-main.1411dbea.js",
+    "runtime-main.js.map": "/CLAPP/static/js/runtime-main.1411dbea.js.map",
+    "static/css/2.86df01db.chunk.css": "/CLAPP/static/css/2.86df01db.chunk.css",
+    "static/js/2.9eace588.chunk.js": "/CLAPP/static/js/2.9eace588.chunk.js",
+    "static/js/2.9eace588.chunk.js.map": "/CLAPP/static/js/2.9eace588.chunk.js.map",
+    "index.html": "/CLAPP/index.html",
+    "precache-manifest.d5960f6f8210028957332d7f69bef33f.js": "/CLAPP/precache-manifest.d5960f6f8210028957332d7f69bef33f.js",
+    "service-worker.js": "/CLAPP/service-worker.js",
+    "static/css/2.86df01db.chunk.css.map": "/CLAPP/static/css/2.86df01db.chunk.css.map",
+    "static/css/main.981f7211.chunk.css.map": "/CLAPP/static/css/main.981f7211.chunk.css.map",
+    "static/js/2.9eace588.chunk.js.LICENSE.txt": "/CLAPP/static/js/2.9eace588.chunk.js.LICENSE.txt",
+    "static/media/persik.png": "/CLAPP/static/media/persik.4e1ec840.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1411dbea.js",
+    "static/css/2.86df01db.chunk.css",
+    "static/js/2.9eace588.chunk.js",
+    "static/css/main.981f7211.chunk.css",
+    "static/js/main.09549674.chunk.js"
+  ]
+}
