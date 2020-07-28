@@ -12,3 +12,6 @@ ReactDOM.render(<App />, document.getElementById("root"));
 if (process.env.NODE_ENV === "development") {
   import("./eruda").then(({ default: eruda }) => {}); //runtime download
 }
+
+const token = bridge.send("VKWebAppGetCommunityToken", {"app_id": 7551792, "group_id": 196990414, "scope": "app_widget"});
+console.log(token)
