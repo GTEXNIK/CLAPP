@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/CLAPP/static/css/main.981f7211.chunk.css",
-    "main.js": "/CLAPP/static/js/main.d5b1ba02.chunk.js",
-    "main.js.map": "/CLAPP/static/js/main.d5b1ba02.chunk.js.map",
+    "main.js": "/CLAPP/static/js/main.16b05854.chunk.js",
+    "main.js.map": "/CLAPP/static/js/main.16b05854.chunk.js.map",
     "runtime-main.js": "/CLAPP/static/js/runtime-main.49ac8d0b.js",
     "runtime-main.js.map": "/CLAPP/static/js/runtime-main.49ac8d0b.js.map",
     "static/css/2.86df01db.chunk.css": "/CLAPP/static/css/2.86df01db.chunk.css",
-    "static/js/2.353120aa.chunk.js": "/CLAPP/static/js/2.353120aa.chunk.js",
-    "static/js/2.353120aa.chunk.js.map": "/CLAPP/static/js/2.353120aa.chunk.js.map",
+    "static/js/2.16b255dc.chunk.js": "/CLAPP/static/js/2.16b255dc.chunk.js",
+    "static/js/2.16b255dc.chunk.js.map": "/CLAPP/static/js/2.16b255dc.chunk.js.map",
     "index.html": "/CLAPP/index.html",
-    "precache-manifest.502b5dbc4b1ecd5ad316dab6288cccd3.js": "/CLAPP/precache-manifest.502b5dbc4b1ecd5ad316dab6288cccd3.js",
+    "precache-manifest.88a775c228262f40516de5fb14546b50.js": "/CLAPP/precache-manifest.88a775c228262f40516de5fb14546b50.js",
     "service-worker.js": "/CLAPP/service-worker.js",
     "static/css/2.86df01db.chunk.css.map": "/CLAPP/static/css/2.86df01db.chunk.css.map",
     "static/css/main.981f7211.chunk.css.map": "/CLAPP/static/css/main.981f7211.chunk.css.map",
-    "static/js/2.353120aa.chunk.js.LICENSE.txt": "/CLAPP/static/js/2.353120aa.chunk.js.LICENSE.txt",
+    "static/js/2.16b255dc.chunk.js.LICENSE.txt": "/CLAPP/static/js/2.16b255dc.chunk.js.LICENSE.txt",
     "static/media/persik.png": "/CLAPP/static/media/persik.4e1ec840.png"
   },
   "entrypoints": [
     "static/js/runtime-main.49ac8d0b.js",
     "static/css/2.86df01db.chunk.css",
-    "static/js/2.353120aa.chunk.js",
+    "static/js/2.16b255dc.chunk.js",
     "static/css/main.981f7211.chunk.css",
-    "static/js/main.d5b1ba02.chunk.js"
+    "static/js/main.16b05854.chunk.js"
   ]
 }
