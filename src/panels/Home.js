@@ -1,50 +1,155 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import Panel from '@vkontakte/vkui/dist/components/Panel/Panel';
-import PanelHeader from '@vkontakte/vkui/dist/components/PanelHeader/PanelHeader';
-import Button from '@vkontakte/vkui/dist/components/Button/Button';
-import Group from '@vkontakte/vkui/dist/components/Group/Group';
-import Cell from '@vkontakte/vkui/dist/components/Cell/Cell';
-import Div from '@vkontakte/vkui/dist/components/Div/Div';
-import Avatar from '@vkontakte/vkui/dist/components/Avatar/Avatar';
+import { makeStyles } from '@material-ui/core/styles';
+import ButtonBase from '@material-ui/core/ButtonBase';
+import Typography from '@material-ui/core/Typography';
 
-const Home = ({ id, go, fetchedUser }) => (
-	<Panel id={id}>
-		<PanelHeader>Example</PanelHeader>
-		{fetchedUser &&
-		<Group title="User Data Fetched with VK Bridge">
-			<Cell
-				before={fetchedUser.photo_200 ? <Avatar src={fetchedUser.photo_200}/> : null}
-				description={fetchedUser.city && fetchedUser.city.title ? fetchedUser.city.title : ''}
-			>
-				{`${fetchedUser.first_name} ${fetchedUser.last_name}`}
-			</Cell>
-		</Group>}
+const images = [
+	{
+	  url: '/static/images/grid-list/breakfast.jpg',
+	  title: 'О нас',
+	  width: '13%',
+	},
+	{
+	  url: '/static/images/grid-list/burgers.jpg',
+	  title: 'Сервера',
+	  width: '13%',
+	},
+	{
+	  url: '/static/images/grid-list/camera.jpg',
+	  title: 'Правила',
+	  width: '13%',
+	},
+	{
+		url: '/static/images/grid-list/camera.jpg',
+		title: 'Уникальные\nплагины',
+		width: '13%',
+	  },
+	  {
+		url: '/static/images/grid-list/camera.jpg',
+		title: 'Киты',
+		width: '13%',
+	  },
+	  {
+		url: '/static/images/grid-list/camera.jpg',
+		title: 'Блокировка\nпосле вайпа',
+		width: '13%',
+	  },
+	  {
+		url: '/static/images/grid-list/camera.jpg',
+		title: 'Уведомление\nо рейде',
+		width: '13%',
+	  },
+  ];
 
-		<Group title="Navigation Example">
-			<Div>
-				<Button size="xl" level="0" onClick={go} data-to="persik">
-					Show me the Persik, please
-				</Button>
-				<Button size="xl" level="2" onClick={go} data-to="persik">
-					test
-				</Button>
-			</Div>
-		</Group>
-	</Panel>
-);
+  const useStyles = makeStyles((theme) => ({
+	root: {
+	  display: 'flex',
+	  flexWrap: 'wrap',
+	  minWidth: 110,
+	  width: '100%',
+	},
+	image: {
+	  position: 'relative',
+	  height: 180,
+	  [theme.breakpoints.down('xs')]: {
+		width: '100% !important', // Overrides inline-style
+		height: 90,
+	  },
+	  '&:hover, &$focusVisible': {
+		zIndex: 1,
+		'& $imageBackdrop': {
+		  opacity: 0.15,
+		},
+		'& $imageMarked': {
+		  opacity: 0,
+		},
+	  },
+	},
+	focusVisible: {},
+	imageButton: {
+	  position: 'absolute',
+	  left: 0,
+	  right: 0,
+	  top: 0,
+	  bottom: 0,
+	  display: 'flex',
+	  alignItems: 'center',
+	  justifyContent: 'center',
+	  color: theme.palette.common.white,
+	},
+	imageSrc: {
+	  position: 'absolute',
+	  left: 0,
+	  right: 0,
+	  top: 0,
+	  bottom: 0,
+	  backgroundSize: 'cover',
+	  backgroundPosition: 'center 40%',
+	},
+	imageBackdrop: {
+	  position: 'absolute',
+	  left: 0,
+	  right: 0,
+	  top: 0,
+	  bottom: 0,
+	  backgroundColor: theme.palette.common.black,
+	  opacity: 0.4,
+	  transition: theme.transitions.create('opacity'),
+	},
+	imageTitle: {
+	  position: 'relative',
+	  padding: `${theme.spacing(2)}px ${theme.spacing(4)}px ${theme.spacing(1) + 6}px`,
+	},
+	imageMarked: {
+	  height: 0, // полосочка
+	  width: 0,
+	  backgroundColor: theme.palette.common.white,
+	  position: 'absolute',
+	  bottom: -2,
+	  left: 'calc(50% - 9px)',
+	  transition: theme.transitions.create('opacity'),
+	},
+  }));
+  
+  export default function ButtonBases() {
+	const classes = useStyles();
+  
+	return (
+	  <div className={classes.root}>
+		{images.map((image) => (
+		  <ButtonBase
+			focusRipple
+			key={image.title}
+			className={classes.image}
+			focusVisibleClassName={classes.focusVisible}
+			style={{
+			  width: image.width,
+			}}
+		  >
+			<span
+			  className={classes.imageSrc}
+			  style={{
+				backgroundImage: `url(${image.url})`,
+			  }}
+			/>
+			<span className={classes.imageBackdrop} />
+			<span className={classes.imageButton}>
+			  <Typography
+				component="span"
+				variant="subtitle1"
+				color="inherit"
+				className={classes.imageTitle}
+			  >
+				{image.title}
+				<span className={classes.imageMarked} />
+			  </Typography>
+			</span>
+		  </ButtonBase>
+		))}
+	  </div>
+	);
+  }
 
-Home.propTypes = {
-	id: PropTypes.string.isRequired,
-	go: PropTypes.func.isRequired,
-	fetchedUser: PropTypes.shape({
-		photo_200: PropTypes.string,
-		first_name: PropTypes.string,
-		last_name: PropTypes.string,
-		city: PropTypes.shape({
-			title: PropTypes.string,
-		}),
-	}),
-};
 
-export default Home;
+
+

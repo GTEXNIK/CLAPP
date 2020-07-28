@@ -20,6 +20,7 @@
     "react-scripts": "^3.4.1"
   },
   "dependencies": {
+    "@material-ui/core": "^4.11.0",
     "@vkontakte/icons": "^1.18.2",
     "@vkontakte/vk-bridge": "^2.2.4",
     "@vkontakte/vk-miniapps-deploy": "0.0.17",
