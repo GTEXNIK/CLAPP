@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "22879fc738333bca0b6f54e7151c4a32",
+    "revision": "fb10380fc3f5d5c78aef86646af3f403",
     "url": "/CLAPP/index.html"
   },
   {
-    "revision": "c9984abafc59c48f94b1",
+    "revision": "60715e43bd4324f4f339",
     "url": "/CLAPP/static/css/2.86df01db.chunk.css"
   },
   {
-    "revision": "37ba9ecc7fad1f2f449d",
+    "revision": "fd74b93ea15bf7463ef4",
     "url": "/CLAPP/static/css/main.981f7211.chunk.css"
   },
   {
-    "revision": "c9984abafc59c48f94b1",
-    "url": "/CLAPP/static/js/2.be729e1e.chunk.js"
+    "revision": "60715e43bd4324f4f339",
+    "url": "/CLAPP/static/js/2.353120aa.chunk.js"
   },
   {
     "revision": "21ced859ea2b2d6b856d461ad6c2afed",
-    "url": "/CLAPP/static/js/2.be729e1e.chunk.js.LICENSE.txt"
+    "url": "/CLAPP/static/js/2.353120aa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "37ba9ecc7fad1f2f449d",
-    "url": "/CLAPP/static/js/main.5577d959.chunk.js"
+    "revision": "fd74b93ea15bf7463ef4",
+    "url": "/CLAPP/static/js/main.ef2e8da5.chunk.js"
   },
   {
     "revision": "ab6b2f38fa54a629f30f",
