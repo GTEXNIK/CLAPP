@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a93d83842a0a53035159cf3c32b606d",
+    "revision": "5726beaa247ced3999800eb148bc66d8",
     "url": "/CLAPP/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CLAPP/static/css/2.86df01db.chunk.css"
   },
   {
-    "revision": "d7962e9f582b5bfc5af4",
+    "revision": "c399941c63bc3f00ee21",
     "url": "/CLAPP/static/css/main.d9817ee9.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CLAPP/static/js/2.1bb0486e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d7962e9f582b5bfc5af4",
-    "url": "/CLAPP/static/js/main.6c65a0f8.chunk.js"
+    "revision": "c399941c63bc3f00ee21",
+    "url": "/CLAPP/static/js/main.ac3fb489.chunk.js"
   },
   {
     "revision": "ab6b2f38fa54a629f30f",
