@@ -17,20 +17,25 @@
     "cross-env": "^5.2.0",
     "gh-pages": "^3.1.0",
     "react-hot-loader": "^4.9.0",
-    "react-scripts": "^3.4.1"
+    "react-scripts": "^3.4.3"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.0",
     "@vkontakte/icons": "^1.18.2",
     "@vkontakte/vk-bridge": "^2.2.4",
+    "@vkontakte/vk-connect": "^1.9.1",
     "@vkontakte/vk-miniapps-deploy": "0.0.17",
     "@vkontakte/vkui": "^3.5.0",
     "babel-eslint": "^10.1.0",
+    "bootstrap": "^4.5.2",
     "chalk": "^2.4.2",
     "core-js": "^3.6.4",
+    "discord.js": "^12.3.1",
+    "domready": "^1.0.8",
     "eruda": "^2.2.0",
     "eruda-code": "^2.0.0",
     "eruda-dom": "^2.0.0",
+    "gamedig": "^2.0.22",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
